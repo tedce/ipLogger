@@ -2,7 +2,7 @@
 Simple Bash script to log ip addresses accesses a web service. One of three function names can be passed as arguments to the script (request_handled, top100, and clear). The request_handled function accepts the ip address as an argument.
 
 ### What would I do differently if I had more time?
-If I had more time I would have pursued different tools. I know conceptually what memcached and redis do but am not confident in the nuances of both these to accomplish the task in 90 minutes. I would also add in a feature that backs up the log file at the end of each day and automatically creates the new log at the beginning of each day (I'd use cron for this most likely). I'd also validate ip addresses and flag unusually high volumes of requests in case of malicious activity.
+If I had more time I would have pursued different tools. I know conceptually what memcached and redis do but am not confident in the nuances of both these to accomplish the task in 90 minutes. I also know d3 deals with data so I may have researched that a bit. Python has some libraries as well (ie pandas) I could have attempted, but under the time constraint I wouldn't have felt confident in those solutions. I would also add in a feature that backs up the log file at the end of each day and automatically creates the new log at the beginning of each day (I'd use cron for this most likely). I'd also validate ip addresses and flag unusually high volumes of requests in case of malicious activity.
 
 ### What is the runtime complexity of each function?
 
