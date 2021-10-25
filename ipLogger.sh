@@ -17,7 +17,7 @@ function request_handled() {
 }
 
 function top100() {
-    echo $(awk '{ print $1 "(" $2 ")" }' requestingIps.txt | sort -r | head -n 100)
+    echo $(awk '{ print $1 "(" $2 ")" }' requestingIps.log | sort -r | head -n 100)
 }
 
 function clear() {
